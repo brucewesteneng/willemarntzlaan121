@@ -38,33 +38,7 @@
       a::after { content:" (" attr(href) ")"; font-size:11px; color:#999; }
       section { break-inside: avoid; }
       figure img { height:160px; }
-      /* Popup afbeelding stijl */
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.8);
-}
-
-.lightbox img {
-  margin: auto;
-  display: block;
-  max-width: 90%;
-  max-height: 80%;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-}
-
-.lightbox:target {
-  display: block;
-}
-    }
+     }
   </style>
 </head>
 <body>
@@ -134,15 +108,11 @@
           <figcaption>Foto 1 – Willem Arntszlaan 121</figcaption>
         </figure>
         <div class="lightbox" id="img1">
-  <a href="#"><img src="Images/20251001_140543.jpg" alt="Foto 1 – Willem Arntszlaan 121"></a>
-</div>
-        <figure>
+          <figure>
           <img src="Images/20251001_140653.jpg" alt="Foto 2 – Willem Arntszlaan 121">
           <figcaption>Foto 2 – Willem Arntszlaan 121</figcaption>
         </figure>
         <div class="lightbox" id="img1">
-  <a href="#"><img src="Images/20251001_140653.jpg" alt="Foto 2 – Willem Arntszlaan 121"></a>
-</div>
         <figure>
           <img src="Images/20251001_140711.jpg" alt="Foto 3 – Willem Arntszlaan 121">
           <figcaption>Foto 3 – Willem Arntszlaan 121</figcaption>
